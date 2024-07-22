@@ -10,5 +10,5 @@ function submitQuiz() {
         score += parseInt(selectedAnswer, 10);
     });
 
-    alert(`Hello ${playerName}, your score is ${score * 10}`);
+    alert(`Hello ${playerName}, your score is ${score * 20}`);
 }
